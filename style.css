@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    border: border-box;
+    
+}
+.details{
+    height: 200px;
+    text-align: center;
+    margin-top: 250px;
+   
+}
+h3{
+    color: rgb(5, 5, 76);
+}
+.yn{
+    margin-top: 20px;
+    display:flex;
+    justify-content: center;
+}
+#yes{
+    margin-right: 25px;
+    color:rgb(80, 80, 235);
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+#yes:hover{
+    border-width: 2px;
+    border-style: solid;
+    border:2px solid rgb(5, 5, 76);
+}
+#no{
+    margin-left: 25px;
+    color:rgb(80, 80, 235) ;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+#no:hover{
+    border:2px solid rgb(5, 5, 76);
+}

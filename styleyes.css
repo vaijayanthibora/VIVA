@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    border: border-box;
+}
+.choose{
+    height: 600px;
+    margin-top: 250px;
+    text-align: center;
+    display: block;
+    color: rgb(5, 5, 76);
+}
+.yn2{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+.yes{
+    margin-right: 100px;
+    color: rgb(80,80,235);
+}
+.no{
+    margin-left: 165px;
+    position: absolute;
+    cursor: pointer;
+    color: rgb(80,80,235);
+}
+.yes:hover{
+    border:2px solid rgb(5, 5, 76);
+}
+.no{
+    border:2px solid rgb(5, 5, 76);
+}
